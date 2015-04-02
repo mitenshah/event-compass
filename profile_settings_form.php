@@ -4,7 +4,7 @@
   <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-11">
-                    <h1 class="page-header">PROFILE SETTINGS</h1>
+                    <h1 class="page-header">Profile Settings</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -18,13 +18,17 @@
                                     <form role="form">
                                         <div class="form-group">
                                                 <label for="disabledSelect">Username</label>
-                                                <input class="form-control" id="disabledInput" type="text" placeholder= "$pp" disabled>
+                                                <input class="form-control" id="disabledInput" type="text" placeholder= "$username" disabled>
+                                        </div>
+
+					<div class="form-group">
+                                          <label>Password</label>
+                                            <input type="password" id="pass" class="form-control" name="password" />                                          
                                         </div>
 
                                         <div class="form-group">
                                           <label>Password</label>
-                                            <input type="password" id="pass" class="form-control" name="password" />
-                                          
+                                            <input type="password" id="pass" class="form-control" name="password" />                                          
                                         </div>
 
                                         <div class="form-group">

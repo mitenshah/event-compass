@@ -1,17 +1,7 @@
 
+<?php require_once("includes/base.php") ?>
 <link href="css/login.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
-<body>
-    <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
-              <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li>
-                        <img src="image/myimage.jpg" width="60px" height="60px"> 
-                  </li>
-                </ul>
-            </div>
-</body>
 
 <div class="container">
     <div class="row">
@@ -43,16 +33,17 @@
                             </div>
                         </div>
                         <div class="form-group last">
-                            <div class="col-sm-offset-3 col-sm-9">
-                                <button type="submit" class="btn btn-success btn-sm">Sign In</button>
+                            <div class="col-sm-offset-7 col-sm-9">
                                 <button type="reset" class="btn btn-default btn-sm">Reset</button>
+                                <button type="submit" class="btn btn-success btn-sm">Sign In</button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="panel-footer">Not Registered? <a href="signup.php" class="">Register Here!</a>
+                <div class="panel-footer">Not Registered Yet? <a href="signup.php" class="">Register Here!</a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>

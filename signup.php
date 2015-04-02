@@ -1,6 +1,8 @@
   
 <link href="css/login.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet"> 
+<link href="css/bootstrap-social.css" rel="stylesheet">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <div class="container">    
         <div id="signupbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
@@ -53,22 +55,31 @@
                                     </div>
                                 </div>
                                    
-                                <div class="form-group">
-                                    <!-- Button -->                                        
-                                    <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i>Sign Up</button>
-                                        <span style="margin-left:8px;">or</span>  
+                                <div class="form-group last">
+                                    <div class="col-sm-offset-8 col-sm-9">
+                                        <button type="button" class="btn btn-link">Cancel</button>
+                                        <button id="btn-signup" type="button" class="btn btn-success"></i>Sign Up</button>
                                     </div>
                                 </div>
                                 
                                 <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">                                   
-                                    <div class="col-md-offset-3 col-md-9">
-                                        <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>Sign In with Facebook</button>
-                                    </div>                                      
+                                    <div class="col-md-offset-3 col-md-6">
+                    				 	<a class="btn btn-block btn-social btn-facebook">
+                        					<i class="fa fa-facebook"></i> Sign in with Facebook
+                    					</a>	
+                    					<a class="btn btn-block btn-social btn-twitter">
+                        					<i class="fa fa-twitter"></i> Sign in with Twitter
+                    					</a>
+                    					<a class="btn btn-block btn-social btn-google-plus">
+                        					<i class="fa fa-google-plus"></i> Sign in with Google+
+        					            </a>						    
+                                    </div>                                     
                                 </div>
                             </form>    
                         </div>                     
                     </div>  
+		        </div>
+            </div>
         </div>
-    </div>
+
     

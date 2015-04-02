@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>EVENT COMPASS</title>
+    <title>Event Compass</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -48,12 +48,12 @@
             <ul class="nav navbar-nav">
                 <div class="col-sm-offset-9">
                     <li>
-                        <button type="button" class="btn btn-info" href="/event_form.php">POST An Event</button>
+                        <button type="button" class="btn btn-info" href="/event_form.php">Post Event</button>
                     </li>  
                 </div>
                 <div class="col-sm-offset-9"    
                     <li>
-                        <a class="page-scroll" href="/user_timeline.php">UserName</a>
+                        <a class="page-scroll" href="/user_timeline.php">Username</a>
                     </li>
                 </div>
                 </ul> 

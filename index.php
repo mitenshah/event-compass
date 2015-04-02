@@ -62,12 +62,12 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Authetication</a>
-                    </li>
+                    </li>                    
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+		    <li>
+			<a href="login.php" class="btn btn-default btn-lg">Sign In</a>
                     </li>
                 </ul>
             </div>
@@ -99,19 +99,6 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Event Compass</h2>
                 <p>A platform where we can connect users to their interest and help them follow it. The platform will do so by enabling the user to keep track of the events of his or her interest. The platform will also enable organizers to post and promote their events so that it reaches the targeted audience.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sign In -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-       <!--             <h2>Sign In</h2> -->
-                    <p></p>
-                    <a href="login.php" class="btn btn-default btn-lg">Sign In</a>
-                </div>
             </div>
         </div>
     </section>

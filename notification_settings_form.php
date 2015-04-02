@@ -4,7 +4,7 @@
   <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">NOTIFICATION SETTINGS</h1>
+                    <h1 class="page-header">Notification Settings</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -27,14 +27,9 @@
                                                 <label>
                                                     <input type="checkbox" value="">Text Message
                                                 </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="">None
-                                                </label>
-                                            </div>
+                                            </div>            
                                         </div>
-                                      <button type="submit" class="btn btn-default">Submit Button</button>
+                                      <button type="submit" class="btn btn-default">Save</button>
                                 </form>
                                 </div>
                                 <!-- /.col-lg-6 (nested) -->
